@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+/* font-family: 'Walter Turncoat', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Walter+Turncoat&display=swap');
+/* font-family: 'Ranchers', cursive; */
+
+body{
+    display: flex;
+    justify-content: center;
+}
+@keyframes wrong { 
+  from { 
+  color: black;
+  } 
+  to { 
+  color: red;
+  } 
+}
+h3{
+  font-family: 'Ranchers', cursive;
+  color: red;
+  text-align: center;
+  font-size: 3em;
+  display: none;
+  position: absolute;
+  top: 31%;
+  right: 4%;
+  position: fixed;
+  background-color: white;
+  width: 25%;
+  height: 14%;
+  animation: wrong 0.5s 3 linear;
+}
+
+@keyframes right { 
+  from { 
+  color: black;
+  } 
+  to { 
+  color: green;
+  } 
+}
+
+
+h4{
+  font-family: 'Ranchers', cursive;
+  color: green;
+  text-align: center;
+  font-size: 3em;
+  display: none;
+  position: absolute;
+  top: 29%;
+  right: 4%;
+  position: fixed;
+  background-color: white;
+  width: 25%;
+  height: 14%;
+  animation: right 0.5s 3 linear;
+}
+
+
+
+
+
+h1{
+    font-family: 'Ranchers', cursive;
+    width: 90%;
+    font-size: 5em;
+    text-align: center;
+    border: 5px dotted gold;
+    border-radius: 20px;
+    padding: 20px 0;
+    animation: bling 0.5s 5 linear;
+}
+
+  @keyframes bling { 
+    from { 
+    color: gold;
+    } 
+    to { 
+    color: black;
+    } 
+  }
+
+h2{
+    font-family:'Walter Turncoat', cursive;
+}
+
+button{
+    padding: 10px 45px;
+    margin-bottom: 50px;
+    font-family:'Walter Turncoat', cursive;
+}
+
+button:hover{
+  background-color: gold;
+  box-shadow: 5px 10px #888888;
+}
